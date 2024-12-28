@@ -19,9 +19,7 @@ jobs:
         node-version: '20'
     
     - name: Install dependencies
-      working-directory: ./tts/density-monitor
       run: npm install
     
     - name: Build
-      working-directory: ./tts/density-monitor
       run: npm run build 
